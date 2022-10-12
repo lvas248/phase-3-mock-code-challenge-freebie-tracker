@@ -12,10 +12,17 @@ Dev.create(name: "Gazorpazop")
 
 puts "Creating freebies..."
 
+
 # ***************************************************************
 # * TODO: create freebies! Remember, a freebie belongs to a dev *
 # * and a freebie belongs to a company.                         *
 # ***************************************************************
 # Create freebies Here
+
+Freebie.create(item_name: "Frisbee", value: 5)
+Freebie.create(item_name: "Pen", value: 1)
+Freebie.create(item_name: "Back pack", value: 10)
+Freebie.create(item_name: "Coozy", value: 4)
+
 
 puts "Seeding done!"
